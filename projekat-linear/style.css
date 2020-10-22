@@ -72,3 +72,57 @@ header{
     height: 100%;
 
 }
+
+.welcome-section{
+    padding: 45px;
+    background-color: var(--gray);
+    text-align: center;
+    font-weight: 100;
+}
+.welcome-section h1{
+    margin-bottom: 30px;
+}
+.welcome-offer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.offer{
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.offer h4{
+    padding: 20px;
+}
+.offer button{
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    color: var(--white);
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 40%;
+    align-items: center;
+    padding: 10px;
+}
+.image-container img{
+    padding-top: 10px;
+    width: 100%;
+    background-size: contain;
+    height: 20vh;
+}
